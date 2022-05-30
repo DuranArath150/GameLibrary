@@ -15,11 +15,9 @@ function Card({title, imageSource, text, url}) {
         <div className="card-body text-light ">
             <h4 className="card-title">{title}</h4>
             <p className="card-text  text-secondary">
-                {
-                    text ? text : 'Contenido no encontrado'
-                }
+               
             </p>
-            <a href={url} className="btn btn-outline-secondary rounded-0">
+            <a href={url} className="btn btn-outline-success rounded-0" target="_blank">
                 Jugar
             </a>
         </div>

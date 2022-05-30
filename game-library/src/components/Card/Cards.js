@@ -3,69 +3,89 @@ import Card from './Card.js';
 import sekiro from '../../images/sekiro.jpg'
 import metro from '../../images/metro.jpg'
 import csgo from '../../images/csgo.png'
+import hollownig from '../../images/HollowKnight.jpg'
+import tombraida from '../../images/Tomb Raider GOTY.jpg'
+import doom from '../../images/capsule_616x353.jpg'
+import valoran from '../../images/Valorant.jpg'
+import elden from '../../images/Elden Ring.jpeg'
+import redded from '../../images/Red_Dead_Redemption_II.png'
+import falguys from '../../images/Fall_Guys.jpg'
+import rocket from '../../images/RocketLeague.jpg'
+import gta from '../../images/Grand Theft Auto V.jpeg'
+
+
 
 const cards=[
     {
         id:0,
-        title: 'Juego1',
+        title: 'Sekiro: Shadow die twice',
         image: sekiro,
-        text: 'test',
-        url: 'https://youtube.com' 
+        url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' 
     },
     {
         id:1,
-        title: 'Juego2',
+        title: 'Metro Last Light Redux',
         image: metro,
-        text: 'test',
         url: 'https://youtube.com' 
     },
     {
         id:2,
-        title: 'Juego3',
+        title: 'Counter-Strike: Global Offensive',
         image: csgo,
-        text: 'test',
         url: 'https://youtube.com' 
     },
     {
         id:2,
-        title: 'Juego4',
-        image: csgo,
-        text: 'test',
+        title: 'Hollow Knight',
+        image: hollownig,
         url: 'https://youtube.com' 
     },
     {
         id:2,
-        title: 'Juego3',
-        image: csgo,
-        text: 'test',
+        title: 'Tomb Raider GOTY',
+        image: tombraida,
         url: 'https://youtube.com' 
     },
     {
         id:2,
-        title: 'Juego3',
-        image: csgo,
-        text: 'test',
+        title: 'DOOM 2016',
+        image: doom,
         url: 'https://youtube.com' 
     },
     {
         id:2,
-        title: 'Juego3',
-        image: csgo,
-        text: 'test',
+        title: 'Valorant',
+        image: valoran,
         url: 'https://youtube.com' 
     },
     {
         id:2,
-        title: 'Juego3',
-        image: csgo,
-        text: 'test',
+        title: 'Elden Ring',
+        image: elden,
         url: 'https://youtube.com' 
     },
     {
         id:2,
-        title: 'Juego3',
-        image: csgo,
-        text: 'test',
+        title: 'Red Dead Redemption II',
+        image: redded,
+        url: 'https://youtube.com' 
+    },
+    {
+        id:2,
+        title: 'Fall Guys',
+        image: falguys,
+        url: 'https://youtube.com' 
+    },
+    {
+        id:2,
+        title: 'Red Rocket League',
+        image: rocket,
+        url: 'https://youtube.com' 
+    },
+    {
+        id:2,
+        title: 'Grand Theft Auto V',
+        image: gta,
         url: 'https://youtube.com' 
     },
 

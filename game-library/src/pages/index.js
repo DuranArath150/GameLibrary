@@ -9,7 +9,7 @@ const Home = () => {
       display:'flex', 
       justifyContent:'center',
       alignItems:'center',
-      height:'150.1vh'
+      height:'200.1vh'
       }}
       >
         <Cards/>
