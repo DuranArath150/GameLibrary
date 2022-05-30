@@ -8,31 +8,34 @@ import {
   NavBtnLink
 } from './NavbarElements';
 
+import Logo from '../../images/logo.svg';
+
+
 const Navbar = () => {
   return (
     <>
       <Nav>
         <NavLink to='/'>
-          <img src={require('../../images/logo.svg')} alt='logo' />
+          <img src={Logo} alt='logo' />
         </NavLink>
-        <Bars />
+        <Bars/>
         <NavMenu>
           <NavLink to='/about' activeStyle>
-            Juegos
+            About
           </NavLink>
           <NavLink to='/services' activeStyle>
-            Filtros
+            Services
           </NavLink>
           <NavLink to='/contact-us' activeStyle>
-            Usuario
+            Contact Us
           </NavLink>
           <NavLink to='/sign-up' activeStyle>
             Sign Up
           </NavLink>
-          {/* Second Nav */}
-          {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
-        
+        <NavBtn>
+          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+        </NavBtn>
       </Nav>
     </>
   );

@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
-* {
+.App {
   font-family: 'Sora', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  background: linear-gradient(
+   180deg,
+  rgba(238,69,64,1) 0%,
+  rgba(199,44,65,1) 30%,
+  rgba(128,19,54,1) 52%, 
+  rgba(81,10,50,1) 71%, 
+  rgba(45,20,44,1) 100%);
+ 
 }
