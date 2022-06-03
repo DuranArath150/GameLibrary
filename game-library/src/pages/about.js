@@ -9,7 +9,7 @@ const About = () => {
     justifyContent:'center',
     alignItems:'center',
     marginTop:'50px',
-    height:'200.1vh'
+    height:'210vh'
     }}
     >
         <Cards></Cards>
