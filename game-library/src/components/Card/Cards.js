@@ -5,26 +5,26 @@ import metro from '../../images/metro.jpg'
 import csgo from '../../images/csgo.png'
 import hollownig from '../../images/HollowKnight.jpg'
 import tombraida from '../../images/Tomb Raider GOTY.jpg'
-import doom from '../../images/capsule_616x353.jpg'
+import doom from '../../images/Doom.jpg'
 import valoran from '../../images/Valorant.jpg'
-import elden from '../../images/Elden Ring.jpeg'
-import redded from '../../images/Red_Dead_Redemption_II.png'
+import elden from '../../images/Elden Ring.jpg'
+import redded from '../../images/RedDead.jpg'
 import falguys from '../../images/Fall_Guys.jpg'
 import rocket from '../../images/RocketLeague.jpg'
-import gta from '../../images/Grand Theft Auto V.jpeg'
+import gta from '../../images/Grand Theft Auto V.jpg'
 
 
 
 const cards=[
     {
         id:0,
-        title: 'Sekiro: Shadow die twice',
+        title: 'Sekiro™: Shadows Die Twice',
         image: sekiro,
         url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' 
     },
     {
         id:1,
-        title: 'Metro Last Light Redux',
+        title: 'Metro: Last Light Redux',
         image: metro,
         url: 'https://youtube.com' 
     },
@@ -48,7 +48,7 @@ const cards=[
     },
     {
         id:2,
-        title: 'DOOM 2016',
+        title: 'DOOM',
         image: doom,
         url: 'https://youtube.com' 
     },
@@ -78,7 +78,7 @@ const cards=[
     },
     {
         id:2,
-        title: 'Red Rocket League',
+        title: 'Rocket League',
         image: rocket,
         url: 'https://youtube.com' 
     },

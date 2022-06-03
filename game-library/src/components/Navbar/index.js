@@ -18,23 +18,31 @@ const Navbar = () => {
         <NavLink to='/'>
           <img src={Logo} alt='logo' />
         </NavLink>
+
+        <div class="input-group input-group-sm mb-5">
+  <div class="input-group-prepend">
+  </div>
+  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"></input>
+  <span class="input-group-text" id="inputGroup-sizing-sm">Buscar...</span>
+
+</div>
+
+
+        
         <Bars/>
         <NavMenu>
           <NavLink to='/about' activeStyle>
-            About
+            Libreria
           </NavLink>
           <NavLink to='/services' activeStyle>
-            Services
-          </NavLink>
-          <NavLink to='/contact-us' activeStyle>
-            Contact Us
+            Vincular cuentas
           </NavLink>
           <NavLink to='/sign-up' activeStyle>
-            Sign Up
+            Registrarse
           </NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+          <NavBtnLink to='/signin'>Iniciar Sesión</NavBtnLink>
         </NavBtn>
       </Nav>
     </>
