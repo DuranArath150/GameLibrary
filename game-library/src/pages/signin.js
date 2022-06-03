@@ -14,7 +14,7 @@ const SignIn = () => {
       >
         <form>
           <div className='form-inner'>
-            <h2>Sign In</h2>
+            <h2 class="text-center">Iniciar Sesión</h2>
             {/*ERROR! */}
             <div className="form-group py-3">
               <label htmlFor='name'>Nombre de usuario: </label>
@@ -24,7 +24,7 @@ const SignIn = () => {
               <label htmlFor='password'>Contraseña: </label>
               <input type='password' name='password' id='password'/>
             </div>
-            <input type="submit" value="Sign In" />
+            <input type="submit" value="Iniciar Sesión" />
           </div>
           </form>
       </div>

@@ -7,6 +7,7 @@ import {
   NavBtn,
   NavBtnLink
 } from './NavbarElements';
+import './navbar.css'
 
 import Logo from '../../images/logo.svg';
 
@@ -15,21 +16,11 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLink to='/'>
+        <NavLink to='/about'>
           <img src={Logo} alt='logo' />
         </NavLink>
-
-        <div class="input-group input-group-sm mb-5">
-  <div class="input-group-prepend">
-  </div>
-  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm"></input>
-  <span class="input-group-text" id="inputGroup-sizing-sm">Buscar...</span>
-
-</div>
-
-
-        
-        <Bars/>
+        <input class="searchbar" placeholder="Buscar..."/>
+        <button class="boton">Buscar</button>
         <NavMenu>
           <NavLink to='/about' activeStyle>
             Libreria

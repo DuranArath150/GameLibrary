@@ -9,13 +9,13 @@ const cards=[
         id:0,
         title: 'Steam',
         image: steam,
-        url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' 
+        url: 'https://store.steampowered.com/login/' 
     },
     {
         id:1,
         title: 'Epic Games',
         image: epic,
-        url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' 
+        url: 'https://www.epicgames.com/id/login' 
     },
     {
 

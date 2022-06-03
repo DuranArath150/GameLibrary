@@ -8,6 +8,7 @@ const About = () => {
     display:'flex', 
     justifyContent:'center',
     alignItems:'center',
+    marginTop:'50px',
     height:'200.1vh'
     }}
     >

@@ -15,78 +15,79 @@ import gta from '../../images/Grand Theft Auto V.jpg'
 
 
 
+
 const cards=[
     {
         id:0,
         title: 'Sekiro™: Shadows Die Twice',
         image: sekiro,
-        url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' 
+        url: 'https://store.steampowered.com/app/814380/Sekiro_Shadows_Die_Twice__GOTY_Edition/' 
     },
     {
         id:1,
         title: 'Metro: Last Light Redux',
         image: metro,
-        url: 'https://youtube.com' 
+        url: 'https://store.steampowered.com/app/287390/Metro_Last_Light_Redux/' 
     },
     {
         id:2,
         title: 'Counter-Strike: Global Offensive',
         image: csgo,
-        url: 'https://youtube.com' 
+        url: 'https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/' 
     },
     {
         id:2,
         title: 'Hollow Knight',
         image: hollownig,
-        url: 'https://youtube.com' 
+        url: 'https://store.steampowered.com/app/367520/Hollow_Knight/' 
     },
     {
         id:2,
         title: 'Tomb Raider GOTY',
         image: tombraida,
-        url: 'https://youtube.com' 
+        url: 'https://store.steampowered.com/app/203160/Tomb_Raider/' 
     },
     {
         id:2,
         title: 'DOOM',
         image: doom,
-        url: 'https://youtube.com' 
+        url: 'https://store.steampowered.com/app/379720/DOOM/' 
     },
     {
         id:2,
         title: 'Valorant',
         image: valoran,
-        url: 'https://youtube.com' 
+        url: 'https://playvalorant.com/en-us' 
     },
     {
         id:2,
         title: 'Elden Ring',
         image: elden,
-        url: 'https://youtube.com' 
+        url: 'https://store.steampowered.com/app/1245620/ELDEN_RING/' 
     },
     {
         id:2,
         title: 'Red Dead Redemption II',
         image: redded,
-        url: 'https://youtube.com' 
+        url: 'https://store.epicgames.com/en-US/p/red-dead-redemption-2' 
     },
     {
         id:2,
-        title: 'Fall Guys',
+        title: 'Fall Guys: Ultimate Knockout',
         image: falguys,
-        url: 'https://youtube.com' 
+        url: 'https://store.steampowered.com/app/1097150/Fall_Guys_Ultimate_Knockout/' 
     },
     {
         id:2,
         title: 'Rocket League',
         image: rocket,
-        url: 'https://youtube.com' 
+        url: 'https://store.epicgames.com/en-US/p/rocket-league' 
     },
     {
         id:2,
         title: 'Grand Theft Auto V',
         image: gta,
-        url: 'https://youtube.com' 
+        url: 'https://store.epicgames.com/en-US/p/grand-theft-auto-v' 
     },
 
     

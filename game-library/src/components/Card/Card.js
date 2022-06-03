@@ -17,9 +17,14 @@ function Card({title, imageSource, text, url}) {
             <p className="card-text  text-secondary">
                
             </p>
-            <a href={url} className="btn btn-outline-success rounded-0" target="_blank">
+            <a href="" className="btn btn-outline-success rounded-0" target="_blank">
                 Jugar
             </a>
+            <div>
+            <a href={url} className="btn btn-outline-success rounded-0 my-2" target="_blank">
+                Más información
+            </a>
+            </div>
         </div>
 
     </div>
